@@ -26,7 +26,7 @@ module.exports = (function() {
     var buffer = require("buffer"),
         Buffer = buffer["Buffer"],
         Long = require("long"),
-        memcpy = null; try { memcpy = require("memcpy"); } catch (e) {}
+        memcpy = null; //try { memcpy = require("memcpy"); } catch (e) {}
 
     /**
      * Constructs a new ByteBuffer.
